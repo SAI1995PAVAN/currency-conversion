@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#displays {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  padding: 5px 20px;
+  font-size: 1em;
+}
+
+#result {
+  padding: 10px;
+  margin: 10px;
+  font-size: 2em;
+}
+
+#countries-symbols {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}

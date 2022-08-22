@@ -1,0 +1,9 @@
+#each-display {
+  padding: 10px;
+  margin: 10px;
+}
+
+select {
+  width: 7em;
+  padding: 10px 20px;
+}
